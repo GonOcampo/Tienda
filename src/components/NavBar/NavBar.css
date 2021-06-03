@@ -1,0 +1,21 @@
+.NavBar{
+    text-align: center;
+    display: block;
+    background-color: #09017c;
+}
+
+div a{
+    padding: 12px;
+    border-left: white 10;
+    text-decoration: none;
+    font-size: 23px;
+    color: antiquewhite;
+}
+
+.NavBar: hover{
+    background-color: white;
+    color: #09017c;
+
+}
+
+
