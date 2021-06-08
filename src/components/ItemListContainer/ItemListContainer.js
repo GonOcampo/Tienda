@@ -3,7 +3,8 @@ import './ItemListContainer.css';
 
 function ItemListContainer (){
     return(
-            <span href="NavBar">0</span>
+            <p>Item List Container
+            </p>
     )
 }
 
