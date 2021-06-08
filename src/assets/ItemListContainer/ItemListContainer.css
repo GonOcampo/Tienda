@@ -1,0 +1,21 @@
+
+.ItemListContained{
+    text-align: center;
+    display: block;
+    background-color: #09017c;
+}
+
+span{
+    margin-left: 2px;
+    /* padding: 10px; */
+    border-left: white 10;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(193, 192, 245);
+}
+
+div :hover{
+    background-color: rgb(90, 128, 199);
+    color: #09017c;
+
+}

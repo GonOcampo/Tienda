@@ -5,17 +5,23 @@
 }
 
 div a{
-    padding: 12px;
+    margin-left: 20px;
+    /* padding: 10px; */
     border-left: white 10;
     text-decoration: none;
-    font-size: 23px;
-    color: antiquewhite;
+    font-size: 20px;
+    color: rgb(193, 192, 245);
 }
 
-.NavBar: hover{
-    background-color: white;
+div :hover{
+    background-color: rgb(90, 128, 199);
     color: #09017c;
 
+}
+
+.Carrito{
+    /* float: right; */
+    margin-top: none;
 }
 
 
