@@ -1,10 +1,27 @@
 import React from 'react';
 import './ItemListContainer.css';
+import ItemCount from '../ItemCount/ItemCount';
+
+
+
 
 function ItemListContainer (){
+
+    const OnAdd = (amount) => {
+        console.log(amount)
+    }
+
     return(
-            <p>Item List Container
-            </p>
+            
+            <div className="ItemListContainer">
+                
+                <p>ItemListContainer</p>
+            
+                <ItemCount initial={1} stock={15} OnAdd={OnAdd}/>
+                
+            
+            
+            </div>
     )
 }
 

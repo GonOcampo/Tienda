@@ -5,13 +5,15 @@ import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 
+
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
   
     <NavBar />
-    <ItemListContainer />
+    <ItemListContainer/>
+  
     
   </React.StrictMode>,
   document.getElementById('root')
