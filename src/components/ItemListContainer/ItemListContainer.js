@@ -9,6 +9,7 @@ function ItemListContainer (){
 
     const OnAdd = (amount) => {
         console.log(amount)
+        console.log('REALIZASTE UNA COMPRA')
     }
 
     return(
