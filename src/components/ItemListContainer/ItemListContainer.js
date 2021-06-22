@@ -24,10 +24,10 @@ const ItemListContainer = () =>{
            
               
             <div className="ItemListContainer">
-                {/* {productList.map((element, i) => {
+                {productList.map((element, i) => {
             return (
                 <div >
-              */}
+             
               <Item/> 
               
               
@@ -37,15 +37,15 @@ const ItemListContainer = () =>{
             
             
                 </div>
-    //     )
-    // }
+        )
+    })
 
 
 
-            //   )}
+              }
 
                
-            // </div>
+            </div>
             
     )};
                
