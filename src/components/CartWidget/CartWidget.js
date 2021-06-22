@@ -10,6 +10,6 @@ function CartWidget () {
 </svg></a>
 
     )
-}
+};
 
 export default CartWidget;

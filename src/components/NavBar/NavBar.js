@@ -3,7 +3,9 @@ import './NavBar.css';
 import "bootstrap-icons/icons/cart-check.svg";
 import CartWidget from '../CartWidget/CartWidget';
 
-function NavBar () {
+
+const NavBar = () => {
+   
     return(
        
         <div className="NavBar">
@@ -17,9 +19,10 @@ function NavBar () {
                 <span>{CartWidget()}</span>
             
         </div>
-    );
-}
 
+    );
+
+}
 
 
 export default NavBar;
