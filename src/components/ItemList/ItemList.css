@@ -21,6 +21,11 @@
     color: rgb(193, 192, 245);
 }
 
+.product img{
+    height: 150px;
+    width: 230px;
+}
+
 div .product .description{
     font-size: 9px;
 }

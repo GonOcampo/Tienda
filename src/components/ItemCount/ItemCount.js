@@ -4,18 +4,18 @@ import './ItemCount.css';
 
 const ItemCount = ({initial, stock, OnAdd}) => {
 
-  const [ Items, setItems] = useState(initial)
+  const [ Items, setItems] = useState(initial);
   
   const AddItems = () =>{
     Items < stock &&
-        setItems(Items + 1)}
+        setItems(Items + 1)};
   
   const LessItems = () =>{
           
-          Items > 1 &&
-              setItems(Items - 1)}
+          Items > 0 &&
+              setItems(Items - 1)};
 
-    console.log(Items)
+    console.log(Items);
 
     return(
       <div>
