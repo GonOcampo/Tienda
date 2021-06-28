@@ -1,15 +1,19 @@
-import React from 'react';
+import React, {} from 'react';
 import './Item.css';
-import ItemList from '../ItemList/ItemList'
-import products from '../ItemList/ItemList'
-// import ItemCount from '../ItemCount/ItemCount';
+import ItemCount from '../ItemCount/ItemCount';
 
-function Item (){
+const Item = (element, i , OnAdd) => {
 
+  return (
+        <div className="product">
+        <img src={element.image}></img>
+        <p>{element.name}</p>
+        <p>$:{element.value}</p>
+        <p>Id:{i + 1}</p>
+        <ItemCount initial={0} stock={element.stock} OnAdd={OnAdd}/>
+      </div>
+    );
   
-
-
-
 }
 
 export default Item;

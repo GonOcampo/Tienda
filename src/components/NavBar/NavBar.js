@@ -7,21 +7,16 @@ import CartWidget from '../CartWidget/CartWidget';
 const NavBar = () => {
    
     return(
-       
         <div className="NavBar">
                 <a href="NavBar">INICIO</a>
                 <a href="ItemListContainer">PRODUCTOS</a>
                 <a href="NavBar">DISEÑOS</a>
                 <a href="NavBar">CLIENTES</a>
                 <a href="NavBar">CONTACTO</a>
-
-             
-                <span>{CartWidget()}</span>
-            
+                <span>{CartWidget()}</span>            
         </div>
 
     );
-
 }
 
 

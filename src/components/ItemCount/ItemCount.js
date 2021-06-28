@@ -10,8 +10,8 @@ const ItemCount = ({initial, stock, OnAdd}) => {
     Items < stock &&
         setItems(Items + 1)};
   
+        
   const LessItems = () =>{
-          
           Items > 0 &&
               setItems(Items - 1)};
 
